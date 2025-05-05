@@ -27,7 +27,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
+        
       - name: Extract zip file
         run: |
           mkdir -p extracted_files
@@ -41,6 +41,10 @@ jobs:
         with:
           source: ./
           destination: ./_site
+
+      - name: Fix permissions on _site directory
+        run: |
+          sudo chmod -R 777 ./_site
 
       - name: Copy extracted files to the build folder
         run: |
