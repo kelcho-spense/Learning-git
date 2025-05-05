@@ -31,7 +31,7 @@ jobs:
       - name: Extract zip file
         run: |
           mkdir -p extracted_files
-          unzip Writerside/webHelpG&G2-all.zip -d extracted_files
+          unzip "Writerside/webHelpG&G2-all.zip" -d extracted_files
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
