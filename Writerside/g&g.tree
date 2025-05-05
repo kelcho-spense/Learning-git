@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="g&g"
+                 name="Git & Github" start-page="README.md">
+
+    <toc-element topic="README.md">
+        <toc-element topic="Introduction.md"/>
+        <toc-element topic="Getting-Started.md"/>
+        <toc-element topic="Collaborating-workflows-syncing.md"/>
+        <toc-element topic="Advanced-Git-Operations.md"/>
+    </toc-element>
+</instance-profile>
