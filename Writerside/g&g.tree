@@ -10,5 +10,6 @@
         <toc-element topic="Getting-Started.md"/>
         <toc-element topic="Collaborating-workflows-syncing.md"/>
         <toc-element topic="Advanced-Git-Operations.md"/>
+        <toc-element topic="exercise.md"/>
     </toc-element>
 </instance-profile>
